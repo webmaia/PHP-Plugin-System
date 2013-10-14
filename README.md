@@ -1,7 +1,7 @@
 PHP Plugin System
 =========
 
-The PHP Plugin System is a fork of [http://bainternet.github.com/PHP-Hooks/][PHP-Hooks] with some fixes and features.
+The PHP Plugin System is a fork of http://bainternet.github.com/PHP-Hooks/ with some fixes and features.
 
 
 * Added Namespaces
