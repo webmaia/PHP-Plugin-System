@@ -1,18 +1,20 @@
-PHP-Hooks
+PHP Plugin System
 =========
 
-The PHP Hooks Class is a fork of the WordPress filters hook system rolled in to a class to be ported into any php based system  
-*  This class is heavily based on the WordPress plugin API and most (if not all) of the code comes from there.
+The PHP Plugin System is a fork of [http://bainternet.github.com/PHP-Hooks/][PHP-Hooks] with some fixes and features.
 
 
-Head Over to [http://bainternet.github.com/PHP-Hooks/][3] For more info
+* Added Namespaces
+* PSR-1 Compliant
+* Not pollute GLOBAL scope.
+
 
 ----------
 
 How to Use?
 =====
 
-Simple, Include the class file in your application bootstrap (setup/load/configuration or whatever you call it) and start hooking your filter and action hooks using the global `$hooks`. Ex:
+Simple, Include the class file in your application bootstrap (setup/load/configuration or whatever you call it) and start hooking your filter and action hooks:
 
 ```PHP
 include_once('Hook/hooks.php');
@@ -136,19 +138,7 @@ Methods
 
 There are a few more methods but these are the main Ones you'll use :).
 
-Download
-========
-You can download this project in either [zip][1] or [tar][2] formats
-
-You can also clone the project with Git by running:
-
-    $ git clone git://github.com/bainternet/PHP-Hooks.git
-
 License
 =======
 
 Since this class is derived from the WordPress Plugin API so are the license and they are GPL http://www.gnu.org/licenses/gpl.html
-
-  [1]: https://github.com/bainternet/PHP-Hooks/zipball/master
-  [2]: https://github.com/bainternet/PHP-Hooks/tarball/master
-  [3]: http://bainternet.github.com/PHP-Hooks/
