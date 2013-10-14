@@ -1,5 +1,5 @@
 {
-    "name": "jordimartin/PHP-Plugin-System",
+    "name": "jordimartin/php-plugin-system",
     "description": "A fork of the WordPress filters hook system rolled in to a class to be ported into any PHP-based system",
     "keywords": ["hooks", "actions", "filters","Plugin"],
     "homepage": "https://github.com/jmartin82/PHP-Plugin-System/",
