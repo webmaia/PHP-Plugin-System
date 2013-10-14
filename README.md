@@ -18,7 +18,7 @@ Simple, Include the class file in your application bootstrap (setup/load/configu
 
 ```PHP
 include_once('PluginSystem/Hooks.php');
-use \Hook\Hooks;
+use \PluginSystem\Hooks;
 
 Hooks::instance()->addAction('header_action','echo_this_in_header');
 
@@ -32,7 +32,7 @@ then all that is left for you is to call the hooked function when you want anywh
 ```PHP
 include_once('PluginSystem/Hooks.php');
 require ("plugin.php");
-use \Hook\Hooks;
+use \PluginSystem\Hooks;
 
 echo '<div id="extra_header">';
 Hooks::instance()->doAction('header_action');
