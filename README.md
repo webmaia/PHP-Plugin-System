@@ -17,7 +17,7 @@ How to Use?
 Simple, Include the class file in your application bootstrap (setup/load/configuration or whatever you call it) and start hooking your filter and action hooks:
 
 ```PHP
-include_once('Hook/hooks.php');
+include_once('PluginSystem/Hooks.php');
 use \Hook\Hooks;
 
 Hooks::instance()->addAction('header_action','echo_this_in_header');
@@ -30,7 +30,7 @@ function echo_this_in_header(){
 then all that is left for you is to call the hooked function when you want anywhere in your aplication, EX:
 
 ```PHP
-include_once('Hook/hooks.php');
+include_once('PluginSystem/Hooks.php');
 require ("plugin.php");
 use \Hook\Hooks;
 

@@ -1,19 +1,19 @@
 <?php
-namespace Hook;
+namespace PluginSystem;
 
 /**
  * PHP Hooks Class
  *
- * The PHP Hooks Class is a fork of the WordPress filters hook system rolled in to a class to be ported
- * into any php based system
+ * The PHP Plugin System is a fork of the WordPress filters and action hook system 
+ * rolled in to a class to be ported into any php based system.
  *
- * This class is heavily based on the WordPress plugin API and most (if not all) of the code comes from there.
+ * This project is fork of http://bainternet.github.com/PHP-Hooks/ 
  *
  *
  * @version 0.1.1
- * @copyright 2011 - 2012
- * @author Ohad Raz (email: admin@bainternet.info)
- * @link http://en.bainternet.info
+ * @copyright 2013
+ * @author Jordi Martin (email: jordimartin@gmail.com)
+ * @link http://www.jordimartin.es
  *
  * @license GNU General Public LIcense v3.0 - license.txt
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -24,7 +24,7 @@ namespace Hook;
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package PHP Hooks
+ * @package PluginSystem
  */
 
   /**
